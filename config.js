@@ -1,9 +1,9 @@
 var config = {
   user : "root",
   password : "", //leave blank for windows
-  port: 8889,
+  // port: 8889,
   host: "localhost",
-  database: "cooperstuff", // database
+  database: "db_video", // database
 
   kidsmode : false
 }

@@ -1,19 +1,59 @@
-<h1>{{ message }}</h1>
-
-<ul>
-  <li>
-    <a href="/getCars" class="get-posts">get cars</a>
-  </li>
-  <li>
-    <a href="/getOne/R58" class="get-one">
-      get one • not functional yet
-    </a>
-  </li>
-</ul>
-
-<button id="F56" class="deleteButton">delete row</button>
-<button id="F56" class="postButton">post data</button>
-
-<button id="F55" class="getButton">get XHR data</button>
-<button id="F56" class="getButton">get XHR data</button>
-<button id="R58" class="getButton">get XHR data</button>
+<div class="container">
+  <div class="row header hom">
+    <div class="col-xs-12 col-sm-12">
+      <h4>Welcome to your home page! <br>What would you like to do?</h4>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div class="circb">
+        <img class="img-responsive" src="/images/movie-icon.png" alt="3 locos">
+      </div>
+      <div class="buttnb">
+        <h4>Movies</h4>
+      </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div class="circb">
+        <img class="img-responsive" src="/images/music-icon.png" alt="3 locos">
+      </div>
+      <div class="buttnb">
+        <h4>Music</h4>
+      </div>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+      <div class="circb">
+        <img id="tv" class="img-responsive" src="/images/tv-icon.png" alt="3 locos">
+      </div>
+      <div class="buttnb">
+        <h4>TV</h4>
+      </div>
+    </div>
+  </div>
+  <div class="users">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6">
+        <h4>PARENTS</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6">
+        <h4>KIDS</h4>
+      </div>
+    </div>
+  </div>
+  {{ menu }}
+  <div class="recom">
+    <h3>HIGHLIGHTS</h3>
+    <div class="row rec">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img class="img-responsive" src="/images/start/1930-3locos.jpg" alt="3 locos">
+        <img class="img-responsive" src="/images/start/1960-gbu.jpg" alt="3 locos">
+        <img class="img-responsive" src="/images/start/1970-jaws.jpg" alt="3 locos">
+        <img class="img-responsive" src="/images/start/1980-pulp.jpg" alt="3 locos">
+        <img class="img-responsive" src="/images/start/tv-supweman.jpg" alt="3 locos">
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="col-lg-4">
+    <img class="img-responsive" src="/images/roku-bw.png" alt="roku">
+  </div>
+</footer>
