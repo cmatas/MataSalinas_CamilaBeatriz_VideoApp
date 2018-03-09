@@ -1,15 +1,14 @@
 <div class="container">
   <div class="row header">
     <div class="col-xs-12 col-sm-12">
-        <!-- <video autoplay">
-          <source src="/images/video/" type="video/mp4">
-        </video> -->
+        <video autoplay>
+          <source src="/images/video/{{con_video}}" type="video/mp4">
+        </video>
     </div>
     <div class="col-xs-12 col-sm-12">
       {{#each details}}
       <h3>{{con_name}}</h3>
       <p>{{ con_desc }}</p>
-      <img src="/images/movies/{{con_image}}" alt="{{con_name}}">
       {{/each}}
     </div>
   </div>
