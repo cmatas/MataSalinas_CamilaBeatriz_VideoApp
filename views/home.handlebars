@@ -38,16 +38,19 @@
       </div>
     </div>
   </div>
-  {{ menu }}
   <div class="recom">
     <h3>HIGHLIGHTS</h3>
     <div class="row rec">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img class="img-responsive" src="/images/start/1930-3locos.jpg" alt="3 locos">
-        <img class="img-responsive" src="/images/start/1960-gbu.jpg" alt="3 locos">
+        {{#each index}}
+        <a href="/details/{{ con_id }}"><img src="/images/movies/{{con_image}}" alt="{{con_name}}"></a>
+        {{/each}}
+
+        <!-- <img class="img-responsive" src="/images/start/1930-3locos.jpg" alt="3 locos"> -->
+        <!-- <img class="img-responsive" src="/images/start/1960-gbu.jpg" alt="3 locos">
         <img class="img-responsive" src="/images/start/1970-jaws.jpg" alt="3 locos">
         <img class="img-responsive" src="/images/start/1980-pulp.jpg" alt="3 locos">
-        <img class="img-responsive" src="/images/start/tv-supweman.jpg" alt="3 locos">
+        <img class="img-responsive" src="/images/start/tv-supweman.jpg" alt="3 locos"> -->
       </div>
     </div>
   </div>

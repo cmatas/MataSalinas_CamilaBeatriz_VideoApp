@@ -3,7 +3,7 @@ var config = {
   password : "", //leave blank for windows
   // port: 8889,
   host: "localhost",
-  database: "db_video", // database
+  database: "db_videoapp", // database
 
   kidsmode : false
 }

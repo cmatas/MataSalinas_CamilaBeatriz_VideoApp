@@ -32,11 +32,15 @@
         </ul>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img class="img-responsive" src="public/images/parents/1950.jpg" alt="vertigo">
+        {{#each index}}
+        <a href="/details/{{ con_id }}"><img src="/images/movies/{{con_image}}" alt="{{con_name}}"></a>
+        {{/each}}
+
+        <!-- <img class="img-responsive" src="public/images/parents/1950.jpg" alt="vertigo">
         <img class="img-responsive" src="public/images/parents/1960.jpg" alt="fks">
         <img class="img-responsive" src="public/images/parents/1970.jpg" alt="3 locos">
         <img class="img-responsive" src="public/images/parents/1980.jpg" alt="3 locos">
-        <img class="img-responsive" src="public/images/parents/1990.jpg" alt="3 locos">
+        <img class="img-responsive" src="public/images/parents/1990.jpg" alt="3 locos"> -->
       </div>
     </div>
   </div>

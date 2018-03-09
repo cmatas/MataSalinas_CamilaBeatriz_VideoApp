@@ -1,5 +1,5 @@
 body {
-  background: #0F0718;
+  background: #080808;
   font-family: 'Century Gothic',sans-serif;
   color: white;
 }
@@ -107,7 +107,7 @@ footer img {
 .par {
   height: 150px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+27,ffffff+100&1+24,0+55 */
-background: url('../images/parents/blues.jpg') 90%;
+background: url('../images/movies/blues.jpg') 90%;
 }
 
 .inf {
