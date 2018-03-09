@@ -1,0 +1,140 @@
+body {
+  background: #0F0718;
+  font-family: 'Century Gothic',sans-serif;
+  color: white;
+}
+.container {
+  height: 100%;
+}
+#flash {
+  width: 30%;
+  height: auto;
+  margin: 0;
+  float: none;
+  display: inline-block;
+  margin-left: -18%;
+  padding: 4px;
+}
+
+#logo {
+  width: 30%;
+}
+.header {
+  margin-top: 50px;
+}
+
+.header h4 {
+  /* color: white;
+  font-family: 'Century Gothic',sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px; */
+}
+.hom {
+  background: url('../public/images/space.jpg') 50%;
+  padding:50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.hom h4 {
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.circb {
+  background: #F7F9F9;
+  border-radius: 100px;
+  padding: 15px;
+}
+.circb img {
+  margin: 0 auto;
+  height: 50px;
+}
+
+#tv {
+  width: auto;
+  height: 50px;
+}
+.rec img {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  /* max-width: 100%; */
+}
+
+.buttnb {
+  /* padding: 2px; */
+  text-align: center;
+  background: #F7F9F9;
+  border-radius: 100px;
+}
+
+.buttnb h4 {
+  color: black;
+}
+
+.users input {
+  margin-top: 4px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+}
+
+.submit {
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #5499C7;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #4d4d4d;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer img {
+  width: 20%;
+}
+
+/* parents section */
+.par {
+  height: 150px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+27,ffffff+100&1+24,0+55 */
+background: url('../public/images/parents/blues.jpg') 90%;
+}
+
+.inf {
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+68,ffffff+100&1+67,0+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+63,ffffff+100&1+62,0+100 */
+  background: -moz-linear-gradient(left, rgba(0,0,0,1) 62%, rgba(0,0,0,0.97) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,0,0,1) 62%,rgba(0,0,0,0.97) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,0,0,1) 62%,rgba(0,0,0,0.97) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.ages {
+  list-style: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+.ages li {
+  display: inline;
+  margin-right: 12.5%;
+  /* float: left; */
+}
+
+.ages li:first-child {
+  margin-left: 2%;
+}
+.ages li:last-child {
+  margin-right: 0%;
+}
