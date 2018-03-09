@@ -1,26 +1,49 @@
-<div class="container">
-  <div class="row header par">
+<div class="container kidcon">
+  <div class="row header kid">
     <div class="col-xs-6 col-sm-2 inf">
-      <h4>User</h4>
-      <h4>Movie played</h4>
+      <h4>Kid</h4>
+      <h4>Wonka</h4>
     </div>
   </div>
-  <div class="users">
-    <h3>KIDS</h3>
+  <div class="genres">
+    <h3>MORE GENRES</h3>
     <div class="row">
-      <div class="col-xs-6 col-sm-6">
-        <img class="img-responsive" src="public/images/parents/golden.jpg" alt="golden girls">
+      <div class="col-xs-6 col-sm-6 listbutton sp">
+        <img class="img-responsive" src="/images/icons/sports.png" alt="like">
+        <h4>SPORTS</h4>
       </div>
-      <div class="col-xs-6 col-sm-6">
-        <img class="img-responsive" src="public/images/parents/friends.jpg" alt="friends">
+      <div class="col-xs-6 col-sm-6 listbutton act">
+        <img class="img-responsive" src="/images/icons/action.png" alt="like">
+        <h4>ACTION</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6 listbutton edu">
+        <img class="img-responsive" src="/images/icons/educational.png" alt="like">
+        <h4>EDUCATION</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6 listbutton ser">
+        <img class="img-responsive" src="/images/icons/serious.png" alt="like">
+        <h4>SERIOUS</h4>
+      </div>
+  </div>
+</div>
+  <div class="music">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/classic.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/rap.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/rock.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/country.png" alt="like">
       </div>
     </div>
   </div>
   <div class="recom">
     <h3>LIST</h3>
-    <div class="col-xs-6 col-sm-6">
-      <img src="" alt="">
-    </div>
     <div class="row rec">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <ul class="ages">
@@ -35,18 +58,7 @@
         {{#each index}}
         <a href="/details/{{ con_id }}"><img src="/images/movies/{{con_image}}" alt="{{con_name}}"></a>
         {{/each}}
-
-        <!-- <img class="img-responsive" src="public/images/parents/1950.jpg" alt="vertigo">
-        <img class="img-responsive" src="public/images/parents/1960.jpg" alt="fks">
-        <img class="img-responsive" src="public/images/parents/1970.jpg" alt="3 locos">
-        <img class="img-responsive" src="public/images/parents/1980.jpg" alt="3 locos">
-        <img class="img-responsive" src="public/images/parents/1990.jpg" alt="3 locos"> -->
       </div>
     </div>
   </div>
 </div>
-<footer>
-  <div class="col-lg-4">
-    <img class="img-responsive" src="public/images/roku-bw.png" alt="roku">
-  </div>
-</footer>
