@@ -1,10 +1,64 @@
-<h1>{{ message }}</h1>
-<p>
-  we're on the kids page!
-</p>
-
-<ul>
-  <li>
-    <a href="/getCars" class="get-posts">get cars</a>
-  </li>
-</ul>
+<div class="container kidcon">
+  <div class="row header kid">
+    <div class="col-xs-6 col-sm-2 inf">
+      <h4>Kid</h4>
+      <h4>Wonka</h4>
+    </div>
+  </div>
+  <div class="genres">
+    <h3>MORE GENRES</h3>
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 listbutton sp">
+        <img class="img-responsive" src="/images/icons/sports.png" alt="like">
+        <h4>SPORTS</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6 listbutton act">
+        <img class="img-responsive" src="/images/icons/action.png" alt="like">
+        <h4>ACTION</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6 listbutton edu">
+        <img class="img-responsive" src="/images/icons/educational.png" alt="like">
+        <h4>EDUCATION</h4>
+      </div>
+      <div class="col-xs-6 col-sm-6 listbutton ser">
+        <img class="img-responsive" src="/images/icons/serious.png" alt="like">
+        <h4>SERIOUS</h4>
+      </div>
+  </div>
+</div>
+  <div class="music">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/classic.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/rap.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/rock.png" alt="like">
+      </div>
+      <div class="col-xs-6 col-sm-6 listbuttonm">
+        <img class="img-responsive" src="/images/icons/country.png" alt="like">
+      </div>
+    </div>
+  </div>
+  <div class="recom">
+    <h3>LIST</h3>
+    <div class="row rec">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="ages">
+          <li>1950</li>
+          <li>1960</li>
+          <li>1970</li>
+          <li>1980</li>
+          <li>1990</li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        {{#each index}}
+        <a href="/details/{{ con_id }}"><img src="/images/movies/{{con_image}}" alt="{{con_name}}"></a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

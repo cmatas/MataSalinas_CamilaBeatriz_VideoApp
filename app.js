@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // import all of your routes
 app.use('/', require('./routes/index'));
 app.use('/users', require('./routes/users'));
-app.use('/getCars', require('./routes/getCars'));
+// app.use('/getCars', require('./routes/getCars'));
 app.use('/api', require('./routes/api'));
 
 
